@@ -28,6 +28,17 @@ body{
     font-family: Roboto;
 }
 
+ul {
+    list-style: none;
+}
+
+button,
+bitton:focus{
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
 /* Haeder */
 header{
     display: flex;
@@ -63,16 +74,42 @@ header .icons .fa-search{
     max-width: 1000px;
 }
 
+.info{
+    padding: var(--padding);
+}
+
+.hashtags {
+    display: flex;
+    font-size: var(--font-small);
+    color: var(--blue-color);
+}
 
 
+.info metadata.hashtags li {
+    margin-right: var(--padding);
+}
 
+.info metadata.titllAndButton {
+    display: flex;
+}
 
+.info metadata.titllAndButton .title {
+font-size: var(--font-medium); 
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 1;
+overflow: hidden;
+margin-right: var(--padding);
+}
 
+.info .metadata .titleAndButton .moreBtn{
+    height: 100%;
+}
 
-
-
-
-
+.info .views {
+    font-size: var(--font-small);
+    color:var(--grey-dark-color);
+}
 
 
 
