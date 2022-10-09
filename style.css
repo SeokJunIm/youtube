@@ -102,6 +102,13 @@ overflow: hidden;
 margin-right: var(--padding);
 }
 
+.info .metadata .titleAndButton .title.clamp{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:2;
+    overflow: hidden;
+
+}
 .info .metadata .titleAndButton .moreBtn{
     height: 100%;
 }
