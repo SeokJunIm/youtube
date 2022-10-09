@@ -135,3 +135,41 @@ margin-right: var(--padding);
     color: var(--blue-color);
 }
 
+/* Channel Description */
+.channel {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid var(--grey-light-color);
+    border-bottom: 1px solid var(--grey-light-color);
+}
+
+.ifno.channel .metadata {
+    display: flex;
+    align-items: center;
+}
+
+.ifno.channel .matadata .info {
+    display: flex;
+    flex-direction: column;
+}
+
+.ifno.channel .matadata img {
+    width: var(--avatar-size);
+    height: var(--avatar-size);
+    border-radius: 50%;
+}
+
+.ifno .channel .matadata .info .name{
+    font-size:var(--font-medium);
+}
+
+.ifno .channel .matadata .info .subscribers {
+    font-size: var(--font-small);
+    color: var(--grey-dark-color);
+}
+
+.ifno .channel .subscribe {
+    text-transform: uppercase;
+    color: var(--red-color);
+    font-size: var(--font-medium);
+}
